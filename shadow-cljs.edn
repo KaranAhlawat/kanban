@@ -1,0 +1,18 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[cider/cider-nrepl "0.29.0"]
+  [binaryage/devtools "1.0.6"]]
+
+ :builds
+ {:app {:target :browser
+        :output-dir "public/assets/js"
+        :asset-path "/assets/js"
+        :modules {:main {:init-fn core/init}}
+        :devtools {:http-root "public"
+                   :http-port 5000
+                   :preloads [devtools.preload]}}}}

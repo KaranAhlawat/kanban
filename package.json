@@ -1,0 +1,13 @@
+{
+  "name": "kanban",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+	  "watch": "shadow-cljs watch app",
+	  "server": "shadow-cljs start",
+	  "kill": "shadow-cljs stop"
+  },
+  "dependencies": {
+    "sass": "^1.58.3",
+    "shadow-cljs": "^2.21.0"
+  }
+}

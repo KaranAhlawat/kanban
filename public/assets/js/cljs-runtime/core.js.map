@@ -1,1 +1,0 @@
-{"version":3,"sources":["core.cljs"],"mappings":";AAEA,YAAA,ZAAeA;AAAf,AACE,mBAAA,ZAACC;;;AAEH","names":["core/init","js/console.log"],"sourcesContent":["(ns core)\n\n(defn ^:export init []\n  (js/console.log \"init fn called.\"))\n\n(comment\n  ,)\n"]}

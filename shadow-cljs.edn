@@ -6,7 +6,8 @@
 
  :dependencies
  [[cider/cider-nrepl "0.29.0"]
-  [binaryage/devtools "1.0.6"]]
+  [binaryage/devtools "1.0.6"]
+  [metosin/malli "0.10.1"]]
 
  :builds
  {:app {:target :browser
